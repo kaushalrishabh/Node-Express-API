@@ -4,7 +4,6 @@ import { createUser, deleteUser, getAllUser, getUser, updateUser } from '../acti
 
 const router = express.Router();
 
-let users = [];
 
 // All routes stars from users
 router.get('/', getAllUser);
